@@ -28,3 +28,11 @@ This game is simple, for now we have one mini game, please see the [Bereshit Spa
 [TextDisplay](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/Assets/Scripts/TextDisplay.cs)
 
 [Bereshit Scripts](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/tree/main/Assets/Scripts/Bereshit)
+
+
+## שאלות לPlayTest:
+1. בשלב בחירת התואר יש רק שתי אופציות כרגע, האם היית רוצה לראות עוד אופציות?
+2. האם היית רוצה לראות עוד שחקנים במשחק?
+3. האם המסך הראשון גרם לך להישאר?
+4. במשחק של החללית ברישית, האם רמת הקושי התאימה בשלבים? היית ממליץ להוסיף עוד עצמים?
+5. כרגע המשחק מראה תרגיל בקורס, האם היית רוצה לראות מטלות בית?
