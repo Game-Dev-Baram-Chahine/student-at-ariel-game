@@ -4,10 +4,12 @@ This repository represents the Student ar ariel game, this game is set 500 years
 
 _This Game is under development, for now you can play only the first 30 seconds of the game_
 
-![Game Screenshot]()
+![Game Screenshot](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/home.png)
 [Play on itch.io]()
 
-## How to play the game
+## Details about the game
+
+This game is simple, for now we have one mini game, please see the [Bereshit Spaceship Github](https://github.com/Game-Dev-Baram-Chahine/bereshit-spaceship).
 
 ## Scripts
 

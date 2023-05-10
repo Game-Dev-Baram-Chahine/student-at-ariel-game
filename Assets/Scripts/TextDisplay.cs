@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class TextDisplay : MonoBehaviour
 {
     public Text playerName;
+
     // Update is called once per frame
     void Start()
     {

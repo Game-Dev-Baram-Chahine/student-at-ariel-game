@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bereshit/GameOver.unity
     guid: aef36fc6bbeb726f1aa5bd4ab77b6fee
+  - enabled: 1
+    path: Assets/Scenes/TimeTravelDegree.unity
+    guid: b3d95d95dd58806e09e52931d5ed116e
+  - enabled: 1
+    path: Assets/Scenes/TImeTravelGame/StartScreen.unity
+    guid: 153bd5aca434c26028f4b1933cbd5af3
   m_configObjects: {}

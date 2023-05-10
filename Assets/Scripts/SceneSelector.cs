@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class SceneSelector : MonoBehaviour
 {
     // This function is responsible for loading the scene by index.
-    public void SceneSelection(int index){
-          SceneManager.LoadScene(index);
+    public void SceneSelection(int index)
+    {
+        SceneManager.LoadScene(index);
     }
 }

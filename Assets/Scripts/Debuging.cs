@@ -11,10 +11,4 @@ public class Debuging : MonoBehaviour
         Debug.Log(StaticVariables.playerAge);
         Debug.Log(StaticVariables.playerDegree);
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -1408,7 +1408,6 @@ GameObject:
   - component: {fileID: 1359890050}
   - component: {fileID: 1359890053}
   - component: {fileID: 1359890052}
-  - component: {fileID: 1359890054}
   - component: {fileID: 1359890051}
   - component: {fileID: 1359890055}
   m_Layer: 5
@@ -1483,10 +1482,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1359890054}
-        m_TargetAssemblyTypeName: SceneSelector, Assembly-CSharp
-        m_MethodName: SceneSelection
-        m_Mode: 3
+      - m_Target: {fileID: 1359890055}
+        m_TargetAssemblyTypeName: InputManager, Assembly-CSharp
+        m_MethodName: SceneSelectByDegree
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1533,18 +1532,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359890049}
   m_CullTransparentMesh: 1
---- !u!114 &1359890054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1359890049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 71d0a1208f3de3a799aa2d19b32d0951, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1359890055
 MonoBehaviour:
   m_ObjectHideFlags: 0

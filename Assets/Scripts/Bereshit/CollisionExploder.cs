@@ -74,7 +74,7 @@ public class CollisionExploder : MonoBehaviour
         {
             // Go to the "WonScreen" scene.
             int currentIndex = SceneManager.GetActiveScene().buildIndex;
-            SceneManager.LoadScene(currentIndex+1);
+            SceneManager.LoadScene(currentIndex + 1);
         }
     }
 
