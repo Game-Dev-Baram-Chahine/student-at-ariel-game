@@ -9,6 +9,6 @@ public class TextDisplay : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
-       playerName.text = playerName.text + " " + StaticVariables.playerName;
+        playerName.text = playerName.text + " " + StaticVariables.playerName;
     }
 }
