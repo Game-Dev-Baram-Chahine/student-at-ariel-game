@@ -5,7 +5,7 @@ This repository represents the Student ar ariel game, this game is set 500 years
 _This Game is under development, for now you can play only the first 30 seconds of the game_
 
 ![Game Screenshot](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/home.png)
-[Play on itch.io]()
+[Play on itch.io](https://gamedevbc.itch.io/studentariel-spaceuniversity)
 
 ## Details about the game
 
