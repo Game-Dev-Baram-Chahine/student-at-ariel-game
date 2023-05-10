@@ -9,7 +9,7 @@ _This Game is under development, for now you can play only the first 30 seconds 
 
 ## Details about the game
 
-This game is simple, for now we have one mini game, please see the [Bereshit Spaceship Github](https://github.com/Game-Dev-Baram-Chahine/bereshit-spaceship).
+This game is simple, for now we have one mini game, please see the [Bereshit Spaceship GitHub](https://github.com/Game-Dev-Baram-Chahine/bereshit-spaceship).
 
 ## Scripts
 
