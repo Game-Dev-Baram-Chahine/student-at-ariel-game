@@ -30,7 +30,7 @@ This game is simple, for now we have one mini game, please see the [Bereshit Spa
 [Bereshit Scripts](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/tree/main/Assets/Scripts/Bereshit)
 
 
-## שאלות לPlayTest:
+## שאלות לPlayTest
 1. בשלב בחירת התואר יש רק שתי אופציות כרגע, האם היית רוצה לראות עוד אופציות?
 2. האם היית רוצה לראות עוד שחקנים במשחק?
 3. האם המסך הראשון גרם לך להישאר?
