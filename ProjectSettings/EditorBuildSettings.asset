@@ -47,4 +47,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlanetExploration/WonScreen.unity
     guid: 006572ee150de40e1abce2582f8e0c42
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.ml-agents.settings: {fileID: 11400000, guid: b58ef92328b83358eb55f6ee82db5e59, type: 2}
