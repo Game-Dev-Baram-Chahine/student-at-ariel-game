@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.Tilemaps;
 using UnityEngine.InputSystem;
-
+using UnityEngine.SceneManagement;
 /**
  * This component allows the player to move by clicking the arrow keys,
  * but only if the new position is on an allowed tile.
@@ -10,7 +10,7 @@ public class KeyboardMover : MonoBehaviour
 {
     [SerializeField] Tilemap tilemap = null;
     [SerializeField] AllowedTiles allowedTiles = null;
-
+    [SerializeField] TileBase alienMaterial = null;
     [SerializeField] InputAction moveAction;
 
     void OnValidate()
@@ -57,6 +57,15 @@ public class KeyboardMover : MonoBehaviour
         return tilemap.GetTile(cellPosition);
     }
 
+    private void IsChest(TileBase tile)
+    {
+        if (alienMaterial == tile)
+        {
+            int currentIndex = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(currentIndex + 1);
+        }
+    }
+
     private void GoTile()
     {
         Vector3 newPosition = NewPosition();
@@ -64,6 +73,7 @@ public class KeyboardMover : MonoBehaviour
         if (allowedTiles.Contain(tileOnNewPosition))
         {
             transform.position = newPosition;
+            IsChest(tileOnNewPosition);
         }
         else
         {
@@ -74,6 +84,6 @@ public class KeyboardMover : MonoBehaviour
     void Update()
     {
         GoTile();
-        //transform.position = NewPosition();
+
     }
 }

@@ -5,37 +5,46 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/HomeScreen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PlayerDetailsScreen.unity
     guid: a1f87437fb8c8e93abf7b835a7f0d7d2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PilotDegree.unity
     guid: f31191359ae5ab00485432cdcc8168ae
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bereshit/StartScreen.unity
     guid: 949bbb7229df5f4638b1988d26fb8da0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bereshit/Level-1.unity
     guid: 02cc223399e7b38fdab3d4680790b5dd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bereshit/Level-2.unity
     guid: 73d9d38ff1bf1dbdb932ea437fcbbb13
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bereshit/Level-3.unity
     guid: 2db4b752165462175a201d43c4c5168d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bereshit/WonScreen.unity
     guid: 18e3350f474518b3481004ba1a89ca46
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Bereshit/GameOver.unity
     guid: aef36fc6bbeb726f1aa5bd4ab77b6fee
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TimeTravelDegree.unity
     guid: b3d95d95dd58806e09e52931d5ed116e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TImeTravelGame/StartScreen.unity
     guid: 153bd5aca434c26028f4b1933cbd5af3
+  - enabled: 1
+    path: Assets/Scenes/PlanetExploration/NewPlanetAliens.unity
+    guid: 6caf8562ab059a546ba64d8b300a5286
+  - enabled: 0
+    path: Assets/Scenes/PlanetExploration/GameOver.unity
+    guid: 37686f3e0e6d28e819ff674324be760b
+  - enabled: 1
+    path: Assets/Scenes/PlanetExploration/WonScreen.unity
+    guid: 006572ee150de40e1abce2582f8e0c42
   m_configObjects: {}

@@ -17,12 +17,12 @@ behaviors:
     reward_signals:
       extrinsic:
         gamma: 0.99
-        strength: 1.0
+        strength: 0.5
       gail:
-        strength: 0.7
+        strength: 0.5
         demo_path: Assets/Demonstrations/Demo_5.demo
     behavioral_cloning:
-      strength: 0.5
+      strength: 0.9
       demo_path: Assets/Demonstrations/Demo_5.demo
     max_steps: 500000
     time_horizon: 64
