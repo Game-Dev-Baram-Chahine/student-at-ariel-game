@@ -11,10 +11,10 @@ _This Game is under development, for now you can play only the first 30 seconds 
 
 This game is simple, for now we have one mini game, please see the [Bereshit Spaceship GitHub](https://github.com/Game-Dev-Baram-Chahine/bereshit-spaceship).
 
-![ml gif](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/output.gif)
-
 ## Immitation Learning
-* we added immitation learning inside a minigame, the gohst tries to catch the player while he needs to collect things from chests
+* we added imitation learning inside a minigame, the ghost tries to catch the player while he needs to collect things from chests
+
+![ml gif](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/output.gif)
 
 ## Scripts
 
