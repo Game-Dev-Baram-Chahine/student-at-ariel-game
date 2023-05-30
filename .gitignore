@@ -106,3 +106,6 @@ $RECYCLE.BIN/
 
 # Pycharm project
 .idea
+
+# venv
+/venv

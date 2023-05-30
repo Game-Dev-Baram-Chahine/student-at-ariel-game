@@ -42,7 +42,7 @@ public class KeyboardMover : MonoBehaviour
         if (moveAction.WasPerformedThisFrame())
         {
             Vector3 movement = moveAction.ReadValue<Vector2>(); // Implicitly convert Vector2 to Vector3, setting z=0.
-            //Debug.Log("movement: " + movement);
+            // Debug.Log("movement: " + movement);
             return transform.position + movement;
         }
         else
