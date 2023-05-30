@@ -13,7 +13,7 @@ This game is simple, for now we have one mini game, please see the [Bereshit Spa
 
 ![ml gif](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/output.gif)
 
-##Immitation Learning
+## Immitation Learning
 * we added immitation learning inside a minigame, the gohst tries to catch the player while he needs to collect things from chests
 
 ## Scripts
