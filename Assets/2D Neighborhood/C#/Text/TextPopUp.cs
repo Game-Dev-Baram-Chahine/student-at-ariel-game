@@ -8,7 +8,7 @@ public class TextPopUp : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == ("Player"))
+        if (other.gameObject.tag == ("Player"))
         {
             Message.SetActive(true);
         }
@@ -16,10 +16,10 @@ public class TextPopUp : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if(other.gameObject.tag == ("Player"))
+        if (other.gameObject.tag == ("Player"))
         {
             Message.SetActive(false);
         }
     }
-  
+
 }

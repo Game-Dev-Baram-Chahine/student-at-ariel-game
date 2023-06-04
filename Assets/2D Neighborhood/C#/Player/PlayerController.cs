@@ -18,13 +18,13 @@ public class PlayerController : MonoBehaviour
 
     public ParticleSystem Dust;
 
-    void Start() 
+    void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
-    void FixedUpdate() 
+    void FixedUpdate()
     {
         moveInput = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
@@ -39,11 +39,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void Update() 
+    void Update()
     {
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
-      
-        if(moveInput < 0)
+
+        if (moveInput < 0)
         {
             transform.eulerAngles = new Vector3(0, 180, 0);
         }
@@ -51,9 +51,9 @@ public class PlayerController : MonoBehaviour
         {
             transform.eulerAngles = new Vector3(0, 0, 0);
         }
-    
-        if(isGrounded == true && Input.GetKeyDown(KeyCode.Space))
-        {          
+
+        if (isGrounded == true && Input.GetKeyDown(KeyCode.Space))
+        {
             anim.SetTrigger("takeOff");
 
             rb.velocity = Vector2.up * jumpForce;
@@ -61,7 +61,7 @@ public class PlayerController : MonoBehaviour
             CreateDust();
         }
 
-        if(isGrounded == true)
+        if (isGrounded == true)
         {
             anim.SetBool("isJumping", false);
         }
