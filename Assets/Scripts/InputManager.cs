@@ -21,7 +21,7 @@ public class InputManager : MonoBehaviour
     {
         StaticVariables.playerDegree = degree;
     }
-    // This method is for Loading a scene by the degree value
+    // This method is for Loading a scene by the scene name
     public void SceneSelectByDegree(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
