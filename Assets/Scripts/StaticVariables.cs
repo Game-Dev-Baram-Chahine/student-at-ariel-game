@@ -9,4 +9,6 @@ public class StaticVariables : MonoBehaviour
     public static string playerDegree = "pilot";
     public static float acadimicScore = 0;
     public static float socialScore = 0;
+    public static enum Week { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday };
+
 }
