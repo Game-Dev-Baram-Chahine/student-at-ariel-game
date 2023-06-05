@@ -59,5 +59,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorldScenes/Library.unity
     guid: 7227e4cda6742ccb38a93d6eaef08f60
+  - enabled: 1
+    path: Assets/Scenes/WorldScenes/Faculty.unity
+    guid: b848af1b960576c7faa8dd5493e027fc
+  - enabled: 1
+    path: Assets/Scenes/WorldScenes/Bar.unity
+    guid: e5f689b457e7ca88e9eba93e0d77afb9
   m_configObjects:
     com.unity.ml-agents.settings: {fileID: 11400000, guid: b58ef92328b83358eb55f6ee82db5e59, type: 2}
