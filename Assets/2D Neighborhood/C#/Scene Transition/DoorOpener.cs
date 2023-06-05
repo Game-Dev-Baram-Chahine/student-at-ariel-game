@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class DoorOpener : MonoBehaviour
 {
     private bool playerDeceted;
@@ -29,7 +29,7 @@ public class DoorOpener : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                sceneSwitch.SwitchScene(sceneName);
+                SceneManager.LoadScene(sceneName);
             }
         }
     }

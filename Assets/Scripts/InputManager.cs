@@ -22,15 +22,8 @@ public class InputManager : MonoBehaviour
         StaticVariables.playerDegree = degree;
     }
     // This method is for Loading a scene by the degree value
-    public void SceneSelectByDegree()
+    public void SceneSelectByDegree(string sceneName)
     {
-        if (StaticVariables.playerDegree == "Pilot")
-        {
-            SceneManager.LoadScene(2);
-        }
-        else if (StaticVariables.playerDegree == "Time Travel")
-        {
-            SceneManager.LoadScene(9);
-        }
+        SceneManager.LoadScene(sceneName);
     }
 }

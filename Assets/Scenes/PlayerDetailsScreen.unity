@@ -1485,13 +1485,13 @@ MonoBehaviour:
       - m_Target: {fileID: 1359890055}
         m_TargetAssemblyTypeName: InputManager, Assembly-CSharp
         m_MethodName: SceneSelectByDegree
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Main Scene
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1359890052
