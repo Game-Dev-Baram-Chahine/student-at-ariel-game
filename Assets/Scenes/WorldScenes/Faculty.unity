@@ -661,7 +661,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4124121661208019733, guid: 840557ada2a4b784a8f6666f1e22c0a3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.01
+      value: -7.3
       objectReference: {fileID: 0}
     - target: {fileID: 4124121661208019733, guid: 840557ada2a4b784a8f6666f1e22c0a3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2191,6 +2191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2114641419}
   - component: {fileID: 2114641420}
+  - component: {fileID: 2114641421}
   m_Layer: 0
   m_Name: Tables_0 (2)
   m_TagString: Untagged
@@ -2265,3 +2266,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2114641421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114641418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c20909e18ba765508989ce35c1f699af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPos: {fileID: 2114641419}
+  ObjectWidth: 5
+  ObjectHeight: 5
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 2147483647
+  sceneName: Bereshit-StartScreen

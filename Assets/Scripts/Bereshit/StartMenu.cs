@@ -15,4 +15,10 @@ public class StartMenu : MonoBehaviour
     {
         SceneManager.LoadScene(index);
     }
+
+    public void Won(string sceneName)
+    {
+        StaticVariables.AddAcademicScore();
+        SceneManager.LoadScene(sceneName);
+    }
 }
