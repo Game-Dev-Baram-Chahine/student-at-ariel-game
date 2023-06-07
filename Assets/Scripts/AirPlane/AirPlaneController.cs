@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class AirPlaneController : MonoBehaviour
 {
+    public Transform endGame;
     public float speed;
+    public float force = 15.0f;
     Rigidbody2D rb;
     public float rotation;
     // Start is called before the first frame update
@@ -19,7 +21,7 @@ public class AirPlaneController : MonoBehaviour
     {
         moveY = Input.GetAxis("Vertical");
         moveX = Input.GetAxis("Horizontal");
-
+        CheckGameStatus();
     }
     private void FixedUpdate()
     {
@@ -34,7 +36,7 @@ public class AirPlaneController : MonoBehaviour
         {
             rb.rotation -= moveY * rotation * (rb.velocity.magnitude / speed);
         }
-        float thrustForce = Vector2.Dot(rb.velocity, rb.GetRelativeVector(Vector2.down)) * 15.0f;
+        float thrustForce = Vector2.Dot(rb.velocity, rb.GetRelativeVector(Vector2.down)) * force;
         Vector2 relativeForce = Vector2.up * thrustForce;
         rb.AddForce(rb.GetRelativeVector(relativeForce));
 
@@ -46,5 +48,13 @@ public class AirPlaneController : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log("Collision2D: " + other.collider.tag);
+        StaticVariables.LoadSceneByName("AirPlane-StartScreen");
+    }
+    private void CheckGameStatus()
+    {
+        if (transform.position.x >= endGame.position.x)
+        {
+            StaticVariables.LoadSceneByName("AirPlane-WonScreen");
+        }
     }
 }
