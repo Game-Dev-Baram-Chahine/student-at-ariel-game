@@ -12,9 +12,6 @@ public class SceneOpener : MonoBehaviour
 
     public LayerMask whatIsPlayer;
 
-    [SerializeField]
-    private string sceneName;
-
     private void Update()
     {
         playerCollision = Physics2D.OverlapBox(objectPos.position, new Vector2(ObjectWidth, ObjectHeight), 0, whatIsPlayer);
@@ -23,7 +20,7 @@ public class SceneOpener : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                SceneManager.LoadScene(sceneName);
+                SceneManager.LoadScene(StaticVariables.GetSceneNameByDay());
             }
         }
     }
