@@ -25,11 +25,8 @@ public class DefenderLaserMover : MonoBehaviour
         if (other.CompareTag(enemyTag))
         {
             // Handle the collision with the enemy
-            Destroy(other.gameObject);  // Destroy the enemy
-            Destroy(gameObject);  // Destroy the laser
-            
-
-            
+            Destroy(other.gameObject);  //Destroy the enemy
+            Destroy(gameObject);//Destroy the laser
         }
     }
 }
