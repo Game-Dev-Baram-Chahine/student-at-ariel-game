@@ -89,5 +89,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SpaceDefender/Defender3.unity
     guid: 278237abe6da7e74c83c794a5285cd03
+  - enabled: 1
+    path: Assets/Scenes/GalacticLang/Galactic-StartScreen.unity
+    guid: a3af1f5f3f9379f0194cf74318637712
+  - enabled: 1
+    path: Assets/Scenes/GalacticLang/Galactic-Course.unity
+    guid: 0cdff3d0b7816cc328c8e1d4a5dda004
   m_configObjects:
     com.unity.ml-agents.settings: {fileID: 11400000, guid: b58ef92328b83358eb55f6ee82db5e59, type: 2}

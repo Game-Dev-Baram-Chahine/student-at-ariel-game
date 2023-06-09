@@ -16,7 +16,7 @@ public class StaticVariables : MonoBehaviour
     public enum Week { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday };
     public static Week day = Week.Monday;
 
-    public static string[] academicMiniGameByDay = new string[] { "AirPlane-StartScreen", "DefenderIntor", "Bereshit-StartScreen" };
+    public static string[] academicMiniGameByDay = new string[] { "AirPlane-StartScreen", "DefenderIntor", "Bereshit-StartScreen", "Galactic-StartScreen" };
     public static string[] socialMiniGameList = new string[] { };
 
     public static void AddDay()
