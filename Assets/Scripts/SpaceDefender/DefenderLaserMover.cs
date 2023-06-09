@@ -22,7 +22,19 @@ public class DefenderLaserMover : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log("trigger");
         if (other.CompareTag(enemyTag))
+        {
+            // Handle the collision with the enemy
+            Destroy(other.gameObject);  //Destroy the enemy
+            Destroy(gameObject);//Destroy the laser
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        Debug.Log("collision");
+        if (other.gameObject.CompareTag(enemyTag))
         {
             // Handle the collision with the enemy
             Destroy(other.gameObject);  //Destroy the enemy

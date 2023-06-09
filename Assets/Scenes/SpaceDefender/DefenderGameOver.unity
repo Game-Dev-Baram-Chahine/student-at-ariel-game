@@ -295,7 +295,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Game Over
+  m_Text: Great Job!
 --- !u!222 &560349748
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -759,7 +759,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You Crashed
+  m_Text: Now you can navigate and shoot with a spacecraft
 --- !u!222 &1502199969
 CanvasRenderer:
   m_ObjectHideFlags: 0
