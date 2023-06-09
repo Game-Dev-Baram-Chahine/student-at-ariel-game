@@ -44,7 +44,6 @@ public class DefenderMover : MonoBehaviour
             movementVector = new Vector3(horizontal, -borderD, 0) * speed * Time.deltaTime;
             transform.position += movementVector;
         }
-        
         if (transform.position.x > borderL)
         {
             transform.position = new Vector3(borderR, transform.position.y, transform.position.z);
