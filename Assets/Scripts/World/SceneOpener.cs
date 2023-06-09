@@ -9,6 +9,7 @@ public class SceneOpener : MonoBehaviour
     public Transform objectPos;
     public float ObjectWidth;
     public float ObjectHeight;
+    public int activity = 0;
 
     public LayerMask whatIsPlayer;
 
@@ -20,7 +21,7 @@ public class SceneOpener : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                SceneManager.LoadScene(StaticVariables.GetSceneNameByDay());
+                SceneManager.LoadScene(StaticVariables.GetSceneNameByDay(activity));
             }
         }
     }
