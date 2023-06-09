@@ -1129,7 +1129,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: To choose degree that you want please click bellow
+  m_Text: To choose the degree that you want please click bellow
 --- !u!222 &2126677563
 CanvasRenderer:
   m_ObjectHideFlags: 0
