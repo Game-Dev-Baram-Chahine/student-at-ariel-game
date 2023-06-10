@@ -28,5 +28,9 @@ public class SceneOpener : MonoBehaviour
                 SceneManager.LoadScene(StaticVariables.GetSceneNameByDay(activity));
             }
         }
+        else
+        {
+            activityName.gameObject.SetActive(false);
+        }
     }
 }
