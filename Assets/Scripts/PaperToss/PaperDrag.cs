@@ -15,11 +15,11 @@ public class PaperDrag : MonoBehaviour
     Vector3 MousePos
     {
         get
-            {
-                Vector3 pos = cam.ScreenToWorldPoint(Input.mousePosition);
-                pos.z = 0f;
-                return pos;
-            }
+        {
+            Vector3 pos = cam.ScreenToWorldPoint(Input.mousePosition);
+            pos.z = 0f;
+            return pos;
+        }
     }
     // Start is called before the first frame update
     void Start()
@@ -34,15 +34,15 @@ public class PaperDrag : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canDrag())
+        if (canDrag())
         {
             DragStart();
         }
-        else if(isDragging)
+        else if (isDragging)
         {
             Drag();
         }
-        if(stoppedDrag())
+        if (stoppedDrag())
         {
             DragEnd();
         }
@@ -67,7 +67,7 @@ public class PaperDrag : MonoBehaviour
         Vector3 startPos = line.GetPosition(0);
         Vector3 curPos = MousePos;
         Vector3 delta = curPos - startPos;
-        if(delta.magnitude <= dragLimit)
+        if (delta.magnitude <= dragLimit)
         {
             line.SetPosition(1, curPos);
         }
@@ -85,7 +85,7 @@ public class PaperDrag : MonoBehaviour
         Vector3 startPos = line.GetPosition(0);
         Vector3 curPos = line.GetPosition(1);
         Vector3 delta = curPos - startPos;
-        Vector3 finalForce = delta* forceToAdd;
+        Vector3 finalForce=delta*forceToAdd;
 
         rb.AddForce(-finalForce, ForceMode2D.Impulse);
     }
