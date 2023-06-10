@@ -470,13 +470,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 848197859}
-        m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: StartMenuGeneric, Assembly-CSharp
         m_MethodName: Won
-        m_Mode: 5
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 13
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -528,7 +528,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 848197854}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 650f352ed58872847b08ae827922dbe6, type: 3}
+  m_Script: {fileID: 11500000, guid: 916256a0911acabf58861f2c01407832, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &854311515
