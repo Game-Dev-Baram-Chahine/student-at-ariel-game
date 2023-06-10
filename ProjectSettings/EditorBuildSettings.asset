@@ -96,7 +96,7 @@ EditorBuildSettings:
     path: Assets/Scenes/GalacticLang/Galactic-StartScreen.unity
     guid: 0cdff3d0b7816cc328c8e1d4a5dda004
   - enabled: 1
-    path: Assets/Scenes/GalacticLang/Galactic-Alphabet.unity
+    path: Assets/Scenes/GalacticLang/Galactic-Finish.unity
     guid: beccaf326b84306a3bca3c5836936f52
   - enabled: 1
     path: Assets/Scenes/PaperToss/Papertoss1.unity
@@ -113,5 +113,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PaperToss/PapertossGameOver.unity
     guid: fbdf0d63222e84a47a89d947d93b5caf
+  - enabled: 1
+    path: Assets/Scenes/GalacticLang/Galactic-Level1.unity
+    guid: 9218c15154cf8e88f9b368e4cbfb4304
+  - enabled: 1
+    path: Assets/Scenes/GalacticLang/Galactic-Level2.unity
+    guid: 17fb0d9e17fc5944ba9bf80341c4f947
+  - enabled: 1
+    path: Assets/Scenes/GalacticLang/Galactic-Level3.unity
+    guid: f939ff118cb37644b9dbcd78f40d8f27
   m_configObjects:
     com.unity.ml-agents.settings: {fileID: 11400000, guid: b58ef92328b83358eb55f6ee82db5e59, type: 2}
