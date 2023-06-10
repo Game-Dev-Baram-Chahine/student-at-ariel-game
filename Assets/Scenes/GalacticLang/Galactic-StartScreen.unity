@@ -583,8 +583,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -27.8209}
-  m_SizeDelta: {x: 700, y: 111.6418}
+  m_AnchoredPosition: {x: 0, y: -62.500004}
+  m_SizeDelta: {x: 700, y: 181}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1375754998
 MonoBehaviour:
@@ -619,8 +619,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Today you will learn the basics of the Galactic language. This will help
-    you when you start working on a spaceshit
+  m_Text: Today, we're going to start with the fundamentals of the Galactic language.
+    This will make it easier for you to communicate with aliens from different colonies
+    in outer space.
 --- !u!222 &1375754999
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -761,7 +762,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -138}
+  m_AnchoredPosition: {x: 0, y: -167.32}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1430421165
