@@ -21,9 +21,13 @@ public class StaticVariables : MonoBehaviour
 
     public static void AddDay()
     {
+        AddDayWithoutLoading();
+        LoadSceneByName(mainScene);
+    }
+    public static void AddDayWithoutLoading()
+    {
         int index = (int)day;
         day = (Week)(index + 1);
-        LoadSceneByName(mainScene);
     }
     public static void AddAcademicScore()
     {
@@ -35,9 +39,19 @@ public class StaticVariables : MonoBehaviour
         StaticVariables.socialScore += StaticVariables.miniGameSocialScore;
         AddDay();
     }
+    public static void AddBothSocialAndAcademic(float points)
+    {
+        StaticVariables.socialScore += points;
+        StaticVariables.acadimicScore += points;
+        AddDayWithoutLoading();
+    }
     public static string GetSceneNameByDay(int activityType)
     {
         string[] temp = academicMiniGameByDay;
+        if (activityType == 2)
+        {
+
+        }
         if (activityType == 1)
         {
             temp = socialMiniGameList;
