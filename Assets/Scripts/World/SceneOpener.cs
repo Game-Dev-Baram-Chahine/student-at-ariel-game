@@ -48,30 +48,25 @@ public class SceneOpener : MonoBehaviour
 
     public void LoadScreen(string scene)
     {
-        StartCoroutine(LoadAsynchronousLoad(scene));
+        StartCoroutine(LoadProgressBar(scene));
     }
-    // This method is mae from this video tutorial: https://www.youtube.com/watch?v=YMj2qPq9CP8&ab_channel=Brackeys
-    IEnumerator LoadAsynchronousLoad(string scene)
+    IEnumerator LoadProgressBar(string scene)
     {
-        yield return null;
-        AsyncOperation ao = SceneManager.LoadSceneAsync(scene);
-        ao.allowSceneActivation = false;
         loadingSlider.SetActive(true);
-        while (!ao.isDone)
+        float MaxTime = 100f;
+        float temp = MaxTime;
+        float ActiveTime = 0f;
+        while (ActiveTime <= MaxTime && MaxTime > 0)
         {
-            float progress = Mathf.Clamp01(ao.progress / 0.9f);
-            Debug.Log("Loading progress: " + (progress * 100) + "%");
-            // Loading completed
-            slider.value = progress;
-            if (ao.progress == 0.9f)
-            {
-                activityName.text = learningWithFriendsMessage;
-                if (Input.GetKeyDown(KeyCode.E))
-                {
-                    StaticVariables.AddBothSocialAndAcademic(10);
-                    ao.allowSceneActivation = true;
-                }
-            }
+            temp -= Time.deltaTime;
+            ActiveTime = MaxTime - temp;
+            var percent = ActiveTime / MaxTime;
+            slider.value = Mathf.Lerp(0, 1, percent);
+        }
+        activityName.text = learningWithFriendsMessage;
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            StaticVariables.AddBothSocialAndAcademic(10);
             yield return null;
         }
     }

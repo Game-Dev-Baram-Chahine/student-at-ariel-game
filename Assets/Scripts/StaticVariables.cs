@@ -43,7 +43,7 @@ public class StaticVariables : MonoBehaviour
     {
         StaticVariables.socialScore += points;
         StaticVariables.acadimicScore += points;
-        AddDayWithoutLoading();
+        AddDay();
     }
     public static string GetSceneNameByDay(int activityType)
     {
