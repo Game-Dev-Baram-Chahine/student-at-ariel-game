@@ -17,7 +17,7 @@ public class StaticVariables : MonoBehaviour
     public static Week day = Week.Monday;
 
     public static string[] academicMiniGameByDay = new string[] { "AirPlane-StartScreen", "DefenderIntor", "Bereshit-StartScreen", "Galactic-StartScreen" };
-    public static string[] socialMiniGameList = new string[] { };
+    public static string[] socialMiniGameList = new string[] { "PapertossIntor" };
 
     public static void AddDay()
     {

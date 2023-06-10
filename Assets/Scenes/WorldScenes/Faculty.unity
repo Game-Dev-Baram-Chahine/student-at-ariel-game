@@ -2279,9 +2279,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPos: {fileID: 2114641419}
-  ObjectWidth: 5
-  ObjectHeight: 5
+  ObjectWidth: 1
+  ObjectHeight: 1
+  activity: 0
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 2147483647
-  sceneName: Bereshit-StartScreen
