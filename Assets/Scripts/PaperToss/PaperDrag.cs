@@ -87,7 +87,7 @@ public class PaperDrag : MonoBehaviour
         Vector3 delta = curPos - startPos;
         Vector3 finalForce = delta* forceToAdd;
 
-        rb.AddForce(finalForce, ForceMode2D.Impulse);
+        rb.AddForce(-finalForce, ForceMode2D.Impulse);
     }
 
 }

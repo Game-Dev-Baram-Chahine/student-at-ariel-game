@@ -98,5 +98,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GalacticLang/Galactic-Alphabet.unity
     guid: beccaf326b84306a3bca3c5836936f52
+  - enabled: 1
+    path: Assets/Scenes/PaperToss/Papertoss1.unity
+    guid: a64b71d0d9f53f4408caa367f4414640
+  - enabled: 1
+    path: Assets/Scenes/PaperToss/Papertoss2.unity
+    guid: 7b6e9c989c2e9fc499e0afa04898759a
+  - enabled: 1
+    path: Assets/Scenes/PaperToss/Papertoss3.unity
+    guid: b78917cac682f024f802586227b469b5
   m_configObjects:
     com.unity.ml-agents.settings: {fileID: 11400000, guid: b58ef92328b83358eb55f6ee82db5e59, type: 2}
