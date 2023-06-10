@@ -14,7 +14,7 @@ public class PaperDrag : MonoBehaviour
 
     Vector3 MousePos
     {
-        get
+        get //gets the mouse position
         {
             Vector3 pos = cam.ScreenToWorldPoint(Input.mousePosition);
             pos.z = 0f;
