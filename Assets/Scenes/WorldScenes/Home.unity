@@ -3665,6 +3665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1138414642}
   - component: {fileID: 1138414641}
+  - component: {fileID: 1138414643}
   m_Layer: 0
   m_Name: Sofas_1
   m_TagString: Untagged
@@ -3739,6 +3740,31 @@ Transform:
   m_Father: {fileID: 816933276}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1138414643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138414640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c20909e18ba765508989ce35c1f699af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingSlider: {fileID: 458112870}
+  slider: {fileID: 458112872}
+  activityName: {fileID: 1506995443}
+  objectPos: {fileID: 1138414642}
+  activityNameText: 'I wanna invite my friends to play a game '
+  ObjectWidth: 1
+  ObjectHeight: 1
+  waitForSeconds: 3
+  activity: 1
+  learningWithFriendsMessage: 
+  whatIsPlayer:
+    serializedVersion: 2
+    m_Bits: 2147483647
 --- !u!1 &1138823774
 GameObject:
   m_ObjectHideFlags: 0
