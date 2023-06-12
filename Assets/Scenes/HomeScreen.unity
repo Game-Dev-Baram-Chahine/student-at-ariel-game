@@ -538,8 +538,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -3.477417, y: -38}
-  m_SizeDelta: {x: 912.6353, y: -6}
+  m_AnchoredPosition: {x: -1.0425, y: -41.6524}
+  m_SizeDelta: {x: 917.5099, y: 1.3048}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &860971118
 MonoBehaviour:
@@ -574,9 +574,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: What will you study at the Ariel Space University? With so many different
-    subjects to choose from, the possibilities are endless. You could study how to
-    be a spaceship pilot, time travel theory and more. The choice is yours!
+  m_Text: 'What will you study at the Ariel Space University? You will study how
+    to be a spaceship pilot.
+
+    In this challenging game, your success hinges on
+    striking the perfect balance between your academic achievements and social interactions
+    to achieve victory.'
 --- !u!222 &860971119
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1129,7 +1132,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: To choose the degree that you want please click bellow
+  m_Text: To choose write you details please click next
 --- !u!222 &2126677563
 CanvasRenderer:
   m_ObjectHideFlags: 0
