@@ -1,8 +1,7 @@
 # Student At Ariel
 
-[![Unity](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/U_Logo_MadeWith_RichBlack_Knockout_RGB.png)](https://unity.com/)
+[![Unity](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/U_Logo_MadeWith_RichBlack_RGB.png)](https://unity.com/)
 
-<img src="https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/U_Logo_MadeWith_RichBlack_Knockout_RGB.png" width="100" height="100">
 This repository contains the code for the game _Student At Ariel_. Put yourself in the year 2500, where you step into the shoes of a student mastering the art of piloting space crafts. In this great adventure, your goal is to balance your academic achievements and social interactions over the course of every week. The outcome of the game depends on your ability to get the perfect equilibrium between these two score.
 
 ![Game Screenshot](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/home.png)
