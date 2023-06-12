@@ -19,7 +19,8 @@ public class GalacticLangSpellcheck : MonoBehaviour
     public void CheckAnswer()
     {
         string userInput = inputField.text;
-        if (userInput.Equals(correctAnswer))
+        string userInputLowercase = userInput.ToLower();
+        if (userInputLowercase.Equals(correctAnswer))
         {
             Debug.Log("Correct answer!");
             StaticVariables.LoadSceneByName(nextLevelTag);
