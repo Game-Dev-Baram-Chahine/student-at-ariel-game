@@ -1132,7 +1132,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: To choose write you details please click next
+  m_Text: Please click Next Screen To Continue
 --- !u!222 &2126677563
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -6,13 +6,15 @@ using UnityEngine.SceneManagement;
 public class StaticVariables : MonoBehaviour
 {
     public static readonly float miniGameAcadimicScore = 25;
-    public static readonly float miniGameSocialScore = 25;
+    public static readonly float miniGameSocialScore = 20;
     public static readonly string mainScene = "Main Scene";
     public static string playerName = "John Doe";
     public static string playerAge = "30";
     public static string playerDegree = "pilot";
     public static float acadimicScore = 0;
     public static float socialScore = 0;
+    public static float passAcademic = 80;
+    public static float passSocial = 40;
     public enum Week { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday };
     public static Week day = Week.Sunday;
 
@@ -76,5 +78,9 @@ public class StaticVariables : MonoBehaviour
     public static void LoadSceneByName(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+    }
+    public static bool wonTheGame()
+    {
+        return (acadimicScore > passAcademic && socialScore > passSocial);
     }
 }
