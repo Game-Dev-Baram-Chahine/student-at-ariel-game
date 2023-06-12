@@ -25,9 +25,9 @@ public class DefenderCheckEnemy : MonoBehaviour
         // If there are no enemies, return true; otherwise, return false
         return enemies.Length == 0;
     }
-    
 
-    }
+
+
     private void LoadSceneDelayed()
     {
         StaticVariables.LoadSceneByName(nextLevelTag);
