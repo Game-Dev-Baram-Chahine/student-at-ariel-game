@@ -724,8 +724,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: 15.1102}
-  m_SizeDelta: {x: 497.0512, y: 109.6223}
+  m_AnchoredPosition: {x: -0.000015259, y: -12}
+  m_SizeDelta: {x: 685.5963, y: 168.9547}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1530393232
 MonoBehaviour:
@@ -760,8 +760,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Today you will learn how to pilot an spaceship, the first leasson will
-    be landing on a planet. Start the simulation when ready
+  m_Text: 'Today you will learn how to pilot an spaceship, the first leasson will
+    be landing on a planet. Start the simulation when ready.
+
+    You will play three
+    levels, in every level you have to land the spaceship without colliding with
+    any space objects.
+
+'
 --- !u!222 &1530393233
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -889,8 +895,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: -232.86}
-  m_SizeDelta: {x: 497.0512, y: 155.481}
+  m_AnchoredPosition: {x: 0, y: -210}
+  m_SizeDelta: {x: 680.3223, y: 114.6076}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2127352702
 MonoBehaviour:
@@ -925,7 +931,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Use Arrows To Move
+  m_Text: 'Use Arrows To Move.
+
+    For tail and nose force use the up and down arrows/
+
+    For
+    the torque use the right and left arrows.'
 --- !u!222 &2127352703
 CanvasRenderer:
   m_ObjectHideFlags: 0
