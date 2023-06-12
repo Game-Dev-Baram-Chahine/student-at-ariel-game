@@ -1059,6 +1059,7 @@ MonoBehaviour:
     academic knowlenge and social presence
   ObjectWidth: 1
   ObjectHeight: 1
+  waitForSeconds: 3
   activity: 2
   learningWithFriendsMessage: Great you learned with your friends, which means that
     your academic and social score get increased by 10 each. Press E to go to the
@@ -1610,7 +1611,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Game With Friends
+  m_Text: Learn With Friends
 --- !u!222 &819837745
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3051,6 +3052,7 @@ MonoBehaviour:
   activityNameText: I'm bored, i want to play a game with my freinds instead of learning
   ObjectWidth: 1
   ObjectHeight: 1
+  waitForSeconds: 3
   activity: 1
   learningWithFriendsMessage: Great you learned with your friends, which means that
     your academic and social score get increased by 10 each. Press E to go to the
