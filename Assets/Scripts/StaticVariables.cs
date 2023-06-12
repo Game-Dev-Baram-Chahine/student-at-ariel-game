@@ -24,16 +24,18 @@ public class StaticVariables : MonoBehaviour
     public static void AddDay()
     {
         AddDayWithoutLoading();
-        LoadSceneByName(mainScene);
+        if (day == Week.Saturday)
+        {
+            LoadSceneByName("AcademyDone");
+        }
+        else
+            LoadSceneByName(mainScene);
     }
     public static void AddDayWithoutLoading()
     {
         int index = (int)day;
         day = (Week)(index + 1);
-        if (day == Week.Saturday)
-        {
-            LoadSceneByName("AcademyDone");
-        }
+
     }
     public static void AddAcademicScore()
     {
