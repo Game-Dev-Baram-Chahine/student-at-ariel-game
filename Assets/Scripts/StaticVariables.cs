@@ -16,6 +16,7 @@ public class StaticVariables : MonoBehaviour
     public static float socialScore = 0;
     public static float passAcademic = 80;
     public static float passSocial = 40;
+    public static float maxScore = 100;
     public enum Week { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday };
     public static Week day = Week.Sunday;
 
@@ -41,11 +42,19 @@ public class StaticVariables : MonoBehaviour
     public static void AddAcademicScore()
     {
         StaticVariables.acadimicScore += StaticVariables.miniGameAcadimicScore;
+        if (StaticVariables.acadimicScore > maxScore)
+        {
+            StaticVariables.acadimicScore = maxScore;
+        }
         AddDay();
     }
     public static void AddSocialScore()
     {
         StaticVariables.socialScore += StaticVariables.miniGameSocialScore;
+        if (StaticVariables.socialScore > maxScore)
+        {
+            StaticVariables.socialScore = maxScore;
+        }
         AddDay();
     }
     public static void AddBothSocialAndAcademic(float points)
