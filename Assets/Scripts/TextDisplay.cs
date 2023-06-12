@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class TextDisplay : MonoBehaviour
 {
+    public Text map;
+    public Text instruction;
     public Text playerName;
     public Text playerSocialScore;
     public Text playerAcadimicScore;
@@ -28,6 +30,14 @@ public class TextDisplay : MonoBehaviour
         if (dayText != null)
         {
             dayText.text = dayText.text + StaticVariables.day.ToString();
+        }
+        if (instruction != null)
+        {
+            instruction.text = "Use: Arrows To Move \n Space To Jump \n E To Enter";
+        }
+        if (map != null)
+        {
+            map.text = "Map:\n\n Home ---- Library ---- Faculty";
         }
     }
 }
