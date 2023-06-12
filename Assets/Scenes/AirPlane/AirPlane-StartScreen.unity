@@ -760,7 +760,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Today you will learn how to pilot an AirPlane.
+  m_Text: Today you will learn how to pilot an airplane. Avoid other planes.
 --- !u!222 &1530393233
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -760,8 +760,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Today you will learn how to pilot an spaceship, the first leasson will
-    be landing on a planet. Start the simulation when ready.
+  m_Text: 'Today you will learn how to pilot a spaceship, the first lesson will be
+    landing on a planet. Start the simulation when ready.
 
     You will play three
     levels, in every level you have to land the spaceship without colliding with
@@ -933,7 +933,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Use Arrows To Move.
 
-    For tail and nose force use the up and down arrows/
+    For tail and nose force use the up and down arrows
 
     For
     the torque use the right and left arrows.'

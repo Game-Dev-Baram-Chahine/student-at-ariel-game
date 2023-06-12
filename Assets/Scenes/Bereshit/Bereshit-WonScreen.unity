@@ -759,7 +759,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You landed good
+  m_Text: "congratulations you landed safely, \nyou unlocked a new class."
 --- !u!222 &1502199969
 CanvasRenderer:
   m_ObjectHideFlags: 0

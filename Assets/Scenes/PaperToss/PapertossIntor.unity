@@ -901,8 +901,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: As a bored student in the group of your friends, you make a game of throwing
-    the eraser to the trash. The caos your fiends do to make it harder seems irresposable.
+  m_Text: As a bored student in a group of your friends, you make a game of throwing
+    the eraser into the trash. The chaos your friends do to make it harder seems
+    irresponsible.
 --- !u!222 &1570198777
 CanvasRenderer:
   m_ObjectHideFlags: 0
