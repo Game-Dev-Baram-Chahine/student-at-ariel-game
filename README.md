@@ -1,45 +1,25 @@
 # Student At Ariel
 
-This repository represents the Student ar ariel game, this game is set 500 years in the future and the player is a student in ariel space university.
+[![Unity](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/U_Logo_MadeWith_RichBlack_Knockout_RGB.png)](https://unity.com/)
 
-_This Game is under development, for now you can play only the first few minutes of the game_
+<img src="https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/U_Logo_MadeWith_RichBlack_Knockout_RGB.png" width="100" height="100">
+This repository contains the code for the game _Student At Ariel_. Put yourself in the year 2500, where you step into the shoes of a student mastering the art of piloting space crafts. In this great adventure, your goal is to balance your academic achievements and social interactions over the course of every week. The outcome of the game depends on your ability to get the perfect equilibrium between these two score.
 
 ![Game Screenshot](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/home.png)
 [Play on itch.io](https://gamedevbc.itch.io/studentariel-spaceuniversity)
 
-## Details about the game
+## Features
+* A scoring system that tracks both academic and social scores.
+* Decision-making scenarios that challenge your ability to balance between academic and social scores.
+* Graphics and visuals that bring the year 2500 to the mini games that you paly.
+* Multiple outcomes based on the choices you make throughout the game.
+* Engaging mini games for piloting spaceships and learning galactic language.
 
-This game is simple, for now we have one mini game, please see the [Bereshit Spaceship GitHub](https://github.com/Game-Dev-Baram-Chahine/bereshit-spaceship).
-
-## Immitation Learning
-* we added imitation learning inside a minigame, the ghost tries to catch the player while he needs to collect things from chests
-
-[Play on itch.io](https://gamedevbc.itch.io/student-at-ariel-space-university-imitation-learning-example)
-
-![ml gif](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/output.gif)
+## Mini Games
 
 ## Scripts
 
-[Debuging](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/Assets/Scripts/Debuging.cs)
+## Feedback
+For any questions, suggestions, or issues, please open an issue in this repository. We appreciate your feedback!
 
-[InputManager](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/Assets/Scripts/InputManager.cs)
-
-[SceneSelector](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/Assets/Scripts/SceneSelector.cs)
-
-[SceneSelector](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/Assets/Scripts/SceneSelector.cs)
-
-[StarWarsOpening](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/Assets/Scripts/StarWarsOpening.cs)
-
-[StaticVariables](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/Assets/Scripts/StaticVariables.cs)
-
-[TextDisplay](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/Assets/Scripts/TextDisplay.cs)
-
-[Bereshit Scripts](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/tree/main/Assets/Scripts/Bereshit)
-
-
-## שאלות לPlayTest
-1. בשלב בחירת התואר יש רק שתי אופציות כרגע, האם היית רוצה לראות עוד אופציות?
-2. האם היית רוצה לראות עוד שחקנים במשחק?
-3. האם המסך הראשון גרם לך להישאר?
-4. במשחק של החללית ברישית, האם רמת הקושי התאימה בשלבים? היית ממליץ להוסיף עוד עצמים?
-5. כרגע המשחק מראה תרגיל בקורס, האם היית רוצה לראות מטלות בית?
+_Enjoy the game and have an amazing experience as a student in the year 2500!_
