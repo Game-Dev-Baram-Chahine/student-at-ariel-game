@@ -13,7 +13,7 @@ public class DefenderCheckEnemy : MonoBehaviour
             // Handle the case when all enemies are defeated
             //////////////////////////////////////////////////////////////////////////////////////////////////////NEXTLEVEL
             Debug.Log("no more enemies");
-            StaticVariables.LoadSceneByName(nextLevelTag);
+            Invoke("LoadSceneDelayed", 1.5f);
         }
     }
 
@@ -24,5 +24,12 @@ public class DefenderCheckEnemy : MonoBehaviour
 
         // If there are no enemies, return true; otherwise, return false
         return enemies.Length == 0;
+    }
+    
+
+    }
+    private void LoadSceneDelayed()
+    {
+        StaticVariables.LoadSceneByName(nextLevelTag);
     }
 }
