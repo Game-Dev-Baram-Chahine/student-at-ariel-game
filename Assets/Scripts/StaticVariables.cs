@@ -67,14 +67,7 @@ public class StaticVariables : MonoBehaviour
         }
         int index = (int)day;
         string sceneName;
-        if (index >= temp.Length)
-        {
-            sceneName = temp[1];
-        }
-        else
-        {
-            sceneName = temp[index];
-        }
+        sceneName = temp[index];
         return sceneName;
     }
     public static void LoadSceneByName(string sceneName)
@@ -83,6 +76,6 @@ public class StaticVariables : MonoBehaviour
     }
     public static bool wonTheGame()
     {
-        return (acadimicScore > passAcademic && socialScore > passSocial);
+        return (acadimicScore >= passAcademic && socialScore >= passSocial);
     }
 }
