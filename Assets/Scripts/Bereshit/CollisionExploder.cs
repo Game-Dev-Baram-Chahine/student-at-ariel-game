@@ -82,6 +82,8 @@ public class CollisionExploder : MonoBehaviour
     {
         explosionEffect.SetActive(true);
         yield return new WaitForSeconds(explosionEffectTime);
-        SceneManager.LoadScene(3);
+        var myScene = SceneManager.GetActiveScene();
+        var sceneName = myScene.name;
+        SceneManager.LoadScene(sceneName);
     }
 }
