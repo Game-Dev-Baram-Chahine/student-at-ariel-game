@@ -13,8 +13,8 @@ public class StaticVariables : MonoBehaviour
     public static string playerDegree = "pilot";
     public static float acadimicScore = 0;
     public static float socialScore = 0;
-    public enum Week { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday };
-    public static Week day = Week.Monday;
+    public enum Week { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
+    public static Week day = Week.Sunday;
 
     public static string[] academicMiniGameByDay = new string[] { "AirPlane-StartScreen", "DefenderIntor", "Bereshit-StartScreen", "Galactic-StartScreen" };
     public static string[] socialMiniGameList = new string[] { "PapertossIntor" };
@@ -28,6 +28,7 @@ public class StaticVariables : MonoBehaviour
     {
         int index = (int)day;
         day = (Week)(index + 1);
+        if(day == Week.Saturday)
     }
     public static void AddAcademicScore()
     {
