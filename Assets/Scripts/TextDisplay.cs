@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class TextDisplay : MonoBehaviour
 {
+    public Text whatToDo;
     public Text map;
     public Text instruction;
     public Text playerName;
@@ -38,6 +39,10 @@ public class TextDisplay : MonoBehaviour
         if (map != null)
         {
             map.text = "Map:\n\n Home ---- Library ---- Faculty";
+        }
+        if (whatToDo != null)
+        {
+            whatToDo.text = "Tip:\nBalance Your Academic & Social Score\nLearn & Socialize In The Faculty & Library";
         }
     }
 }
