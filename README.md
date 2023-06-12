@@ -1,4 +1,4 @@
-# Student At Ariel
+# Student At Ariel 🎮
 
 [![Unity](https://github.com/Game-Dev-Baram-Chahine/student-at-ariel-game/blob/main/pics/made_with_unity.png)](https://unity.com/)
 
