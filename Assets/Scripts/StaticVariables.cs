@@ -42,25 +42,20 @@ public class StaticVariables : MonoBehaviour
     public static void AddAcademicScore()
     {
         StaticVariables.acadimicScore += StaticVariables.miniGameAcadimicScore;
-        if (StaticVariables.acadimicScore > maxScore)
-        {
-            StaticVariables.acadimicScore = maxScore;
-        }
+        checkScore();
         AddDay();
     }
     public static void AddSocialScore()
     {
         StaticVariables.socialScore += StaticVariables.miniGameSocialScore;
-        if (StaticVariables.socialScore > maxScore)
-        {
-            StaticVariables.socialScore = maxScore;
-        }
+        checkScore();
         AddDay();
     }
     public static void AddBothSocialAndAcademic(float points)
     {
         StaticVariables.socialScore += points;
         StaticVariables.acadimicScore += points;
+        checkScore();
         AddDay();
     }
     public static string GetSceneNameByDay(int activityType)
@@ -87,5 +82,16 @@ public class StaticVariables : MonoBehaviour
     public static bool wonTheGame()
     {
         return (acadimicScore >= passAcademic && socialScore >= passSocial);
+    }
+    public static void checkScore()
+    {
+        if (StaticVariables.socialScore > maxScore)
+        {
+            StaticVariables.socialScore = maxScore;
+        }
+        if (StaticVariables.acadimicScore > maxScore)
+        {
+            StaticVariables.acadimicScore = maxScore;
+        }
     }
 }
