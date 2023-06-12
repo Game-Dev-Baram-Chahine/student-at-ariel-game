@@ -14,8 +14,9 @@ public class SceneOpener : MonoBehaviour
     public string activityNameText = "Learn Alone";
     public float ObjectWidth;
     public float ObjectHeight;
+    public float waitForSeconds = 3.0f;
     public int activity = 0;
-    public string learningWithFriendsMessage = "Great you learned with your friends, which means that your academic and social score gets increased by 10 each. Press E to go to the main screen.";
+    public string learningWithFriendsMessage = "Great you learned with your friends, which means that your academic and social score gets increased by 10 each.";
     public LayerMask whatIsPlayer;
 
     private void Update()
@@ -24,8 +25,11 @@ public class SceneOpener : MonoBehaviour
 
         if (playerCollision == true)
         {
-            activityName.text = activityNameText;
-            activityName.gameObject.SetActive(true);
+            if (activityName != null)
+            {
+                activityName.text = activityNameText;
+                activityName.gameObject.SetActive(true);
+            }
             if (Input.GetKeyDown(KeyCode.E))
             {
                 if (activity == 2)
@@ -41,33 +45,38 @@ public class SceneOpener : MonoBehaviour
         }
         else
         {
-            activityName.gameObject.SetActive(false);
+            if (activityName != null)
+            {
+                activityName.gameObject.SetActive(false);
+            }
         }
     }
 
 
     public void LoadScreen(string scene)
     {
-        StartCoroutine(LoadProgressBar(scene));
+        StartCoroutine(SceneLoadCoroutine(scene));
     }
-    IEnumerator LoadProgressBar(string scene)
+
+    IEnumerator SceneLoadCoroutine(string sceneName)
     {
         loadingSlider.SetActive(true);
-        float MaxTime = 100f;
+        float MaxTime = 60f;
         float temp = MaxTime;
         float ActiveTime = 0f;
-        while (ActiveTime <= MaxTime && MaxTime > 0)
+        while (temp > 0)
         {
             temp -= Time.deltaTime;
             ActiveTime = MaxTime - temp;
             var percent = ActiveTime / MaxTime;
             slider.value = Mathf.Lerp(0, 1, percent);
         }
-        activityName.text = learningWithFriendsMessage;
         if (Input.GetKeyDown(KeyCode.E))
         {
+            activityNameText = learningWithFriendsMessage;
+            activityName.text = learningWithFriendsMessage;
+            yield return new WaitForSeconds(waitForSeconds);
             StaticVariables.AddBothSocialAndAcademic(10);
-            yield return null;
         }
     }
 }
