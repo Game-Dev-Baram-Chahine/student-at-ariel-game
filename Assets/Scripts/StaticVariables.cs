@@ -29,6 +29,9 @@ public class StaticVariables : MonoBehaviour
         int index = (int)day;
         day = (Week)(index + 1);
         if(day == Week.Saturday)
+        {
+            LoadSceneByName("AcademyDone");
+        }
     }
     public static void AddAcademicScore()
     {
