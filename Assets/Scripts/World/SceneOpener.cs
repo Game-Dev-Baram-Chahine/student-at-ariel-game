@@ -14,7 +14,7 @@ public class SceneOpener : MonoBehaviour
     public string activityNameText = "Learn Alone";
     public float ObjectWidth;
     public float ObjectHeight;
-    public float waitForSeconds = 3.0f;
+    public float waitForSeconds = 7.0f;
     public int activity = 0;
     public string learningWithFriendsMessage = "Great you learned with your friends, which means that your academic and social score gets increased by 10 each.";
     public LayerMask whatIsPlayer;
@@ -76,7 +76,7 @@ public class SceneOpener : MonoBehaviour
             activityNameText = learningWithFriendsMessage;
             activityName.text = learningWithFriendsMessage;
             yield return new WaitForSeconds(waitForSeconds);
-            StaticVariables.AddBothSocialAndAcademic(10);
+            StaticVariables.AddBothSocialAndAcademic(5);
         }
     }
 }
