@@ -9,6 +9,7 @@ public class StaticVariables : MonoBehaviour
     public static readonly float miniGameSocialScore = 20;
     public static readonly string mainScene = "Main Scene";
     public static string playerName = "John Doe";
+    public static int currentGameIndex = 0;
     public static string playerAge = "30";
     public static string playerDegree = "pilot";
     public static float acadimicScore = 0;
@@ -56,18 +57,18 @@ public class StaticVariables : MonoBehaviour
     public static string GetSceneNameByDay(int activityType)
     {
         string[] temp = academicMiniGameByDay;
-        if (activityType == 2)
-        {
-
-        }
         if (activityType == 1)
         {
             temp = socialMiniGameList;
             return socialMiniGameList[0];
         }
-        int index = (int)day;
         string sceneName;
-        sceneName = temp[index];
+        if (currentGameIndex >= temp.Length)
+        {
+            currentGameIndex = 0;
+        }
+        sceneName = temp[currentGameIndex];
+        currentGameIndex++;
         return sceneName;
     }
     public static void LoadSceneByName(string sceneName)
