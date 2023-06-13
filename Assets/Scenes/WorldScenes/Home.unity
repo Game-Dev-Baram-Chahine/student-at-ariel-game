@@ -6392,7 +6392,7 @@ MonoBehaviour:
   slider: {fileID: 458112872}
   activityName: {fileID: 1506995443}
   objectPos: {fileID: 2053601472}
-  activityNameText: I wanna invite my friends to lean
+  activityNameText: I wanna invite my friends to learn
   ObjectWidth: 1
   ObjectHeight: 1
   waitForSeconds: 3
