@@ -57,7 +57,10 @@ public class SceneOpener : MonoBehaviour
     {
         StartCoroutine(SceneLoadCoroutine(scene));
     }
-
+    /// <summary>
+    /// This function Loads the scene represented by the sceneName param, after slider finishes loading.
+    /// </summary>
+    /// <param name="sceneName">The scene name.</param>
     IEnumerator SceneLoadCoroutine(string sceneName)
     {
         loadingSlider.SetActive(true);

@@ -23,7 +23,9 @@ public class StaticVariables : MonoBehaviour
 
     public static string[] academicMiniGameByDay = new string[] { "AirPlane-StartScreen", "DefenderIntor", "Bereshit-StartScreen", "Galactic-StartScreen" };
     public static string[] socialMiniGameList = new string[] { "PapertossIntor" };
-
+    /// <summary>
+    /// Adds a day and load the appropriate scene. If the player won then load the winning scene, else load the main scene.
+    /// </summary>
     public static void AddDay()
     {
         AddDayWithoutLoading();
@@ -36,24 +38,37 @@ public class StaticVariables : MonoBehaviour
         else
             LoadSceneByName(mainScene);
     }
+    /// <summary>
+    /// Adds a day to the enum value.
+    /// </summary>
     public static void AddDayWithoutLoading()
     {
         int index = (int)day;
         day = (Week)(index + 1);
 
     }
+    /// <summary>
+    ///  Adds academic score to the scoreboard.
+    /// </summary>
     public static void AddAcademicScore()
     {
         StaticVariables.acadimicScore += StaticVariables.miniGameAcadimicScore;
         checkScore();
         AddDay();
     }
+    /// <summary>
+    ///  Adds social score to the scoreboard.
+    /// </summary>
     public static void AddSocialScore()
     {
         StaticVariables.socialScore += StaticVariables.miniGameSocialScore;
         checkScore();
         AddDay();
     }
+    /// <summary>
+    /// Adds both social and academic scores to the scoreboard.
+    /// </summary>
+    /// <param name="points">The points to add to both.</param>
     public static void AddBothSocialAndAcademic(float points)
     {
         StaticVariables.socialScore += points;
@@ -61,6 +76,11 @@ public class StaticVariables : MonoBehaviour
         checkScore();
         AddDay();
     }
+    ///  <summary>
+    /// Returns the scene name by the day and activity.
+    /// </summary>
+    /// <param name="activityType">The activity</param>
+    /// <returns>string: The scene name</returns>
     public static string GetSceneNameByDay(int activityType)
     {
         string[] temp = academicMiniGameByDay;
@@ -78,14 +98,24 @@ public class StaticVariables : MonoBehaviour
         currentGameIndex++;
         return sceneName;
     }
+    /// <summary>
+    /// Loads a scene by name.
+    /// </summary>
     public static void LoadSceneByName(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }
+    /// <summary>
+    /// Check if the player won the game by the score.
+    /// </summary>
+    /// <returns>Boolean: True if the player won the game</returns>
     public static bool wonTheGame()
     {
         return (acadimicScore >= passAcademic && socialScore >= passSocial);
     }
+    /// <summary>
+    /// Check if the score is at maximum.
+    /// </summary>
     public static void checkScore()
     {
         if (StaticVariables.socialScore > maxScore)

@@ -47,6 +47,10 @@ public class PaperDrag : MonoBehaviour
             DragEnd();
         }
     }
+    /// <summary>
+    /// Return true if the mouse can drag.
+    /// </summary>
+    /// <returns>Boolean</returns>
     public bool canDrag()
     {
         return (Input.GetMouseButton(0) && !isDragging);
@@ -55,6 +59,9 @@ public class PaperDrag : MonoBehaviour
     {
         return (Input.GetMouseButtonUp(0) && isDragging);
     }
+    /// <summary>
+    /// This function is for starting the drag.
+    /// </summary>
     private void DragStart()
     {
         line.enabled = true;

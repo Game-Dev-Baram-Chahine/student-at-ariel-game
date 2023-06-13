@@ -11,7 +11,9 @@ public class ExitDoor : MonoBehaviour
     {
         PutPlayerOnLastBuildingDoor();
     }
-
+    /// <summary>
+    /// This function is responsible for placing the player next to the last building door.
+    /// </summary>
     private void PutPlayerOnLastBuildingDoor()
     {
         Debug.Log(StaticVariables.lastScene);
