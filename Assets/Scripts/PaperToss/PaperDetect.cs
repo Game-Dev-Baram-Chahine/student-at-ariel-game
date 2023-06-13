@@ -17,6 +17,9 @@ public class PaperDetect : MonoBehaviour
             Invoke("LoadSceneDelayed", 1.5f);
         }
     }
+    /// <summary>
+    /// Called when the when the player finished the current level/.
+    /// </summary>
     private void LoadSceneDelayed()
     {
         StaticVariables.LoadSceneByName(nextLevelTag);

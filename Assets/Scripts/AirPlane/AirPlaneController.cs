@@ -50,6 +50,9 @@ public class AirPlaneController : MonoBehaviour
         Debug.Log("Collision2D: " + other.collider.tag);
         StaticVariables.LoadSceneByName("AirPlane-StartScreen");
     }
+    /// <summary>
+    /// This function Checks if the player got to the target location.
+    /// </summary>
     private void CheckGameStatus()
     {
         if (transform.position.x >= endGame.position.x)

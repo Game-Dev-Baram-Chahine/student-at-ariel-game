@@ -47,7 +47,6 @@ public class PaperDrag : MonoBehaviour
             DragEnd();
         }
     }
-
     public bool canDrag()
     {
         return (Input.GetMouseButton(0) && !isDragging);
@@ -85,7 +84,7 @@ public class PaperDrag : MonoBehaviour
         Vector3 startPos = line.GetPosition(0);
         Vector3 curPos = line.GetPosition(1);
         Vector3 delta = curPos - startPos;
-        Vector3 finalForce=delta*forceToAdd;
+        Vector3 finalForce = delta * forceToAdd;
 
         rb.AddForce(-finalForce, ForceMode2D.Impulse);
     }

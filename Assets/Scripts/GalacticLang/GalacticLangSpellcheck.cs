@@ -16,6 +16,9 @@ public class GalacticLangSpellcheck : MonoBehaviour
     private float messageTimer = 0f;
     private bool displayMessage = false;
 
+    /// <summary>
+    /// This function checks if the player's answer is correct
+    /// </summary>
     public void CheckAnswer()
     {
         string userInput = inputField.text;
