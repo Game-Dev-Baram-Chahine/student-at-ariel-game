@@ -15,10 +15,6 @@ In this great adventure, your goal is to balance your academic achievements and 
 * Multiple outcomes based on the choices you make throughout the game.
 * Engaging 🎮 mini games for piloting spaceships and learning galactic language.
 
-## Mini Games
-
-
-## Scripts
 
 ## Assets
 This game uses multiple assets from the unity [Asset Store](assetstore.unity.com).
