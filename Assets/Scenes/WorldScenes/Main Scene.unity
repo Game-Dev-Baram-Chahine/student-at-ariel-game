@@ -8245,6 +8245,22 @@ MonoBehaviour:
   dayText: {fileID: 0}
   congrats: {fileID: 0}
   speechText: {fileID: 0}
+  instructionText: "Use: Arrows To Move \n Space To Jump \n E To Enter"
+  mapText: "Map:\n\n Home ---- Library ---- Faculty"
+  whatToDoText: 'Tip:
+
+    Balance Your Academic & Social Score
+
+    Learn & Socialize
+    In The Faculty & Library'
+  successSpeechText: "Your determination and hard work as a student in this game
+    have paid off. \nYou've shown incredible skill, resilience, and a thirst for
+    knowledge. \nThis achievement is just the beginning of your journey to even greater
+    heights. \nKeep striving for excellence, and the world will be yours to conquer."
+  failSpeechText: "Even though you didn't achieve the desired outcome in this game
+    as a student, I want to applaud your dedication and effort. \nRemember that setbacks
+    are stepping stones to success, and with perseverance, you'll overcome any obstacles
+    that come your way. \nKeep your head up and continue to strive for greatness."
 --- !u!114 &1370080773
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8341,6 +8357,22 @@ MonoBehaviour:
   dayText: {fileID: 0}
   congrats: {fileID: 0}
   speechText: {fileID: 0}
+  instructionText: "Use: Arrows To Move \n Space To Jump \n E To Enter"
+  mapText: "Map:\n\n Home ---- Library ---- Faculty"
+  whatToDoText: 'Tip:
+
+    Balance Your Academic & Social Score
+
+    Learn & Socialize
+    In The Faculty & Library'
+  successSpeechText: "Your determination and hard work as a student in this game
+    have paid off. \nYou've shown incredible skill, resilience, and a thirst for
+    knowledge. \nThis achievement is just the beginning of your journey to even greater
+    heights. \nKeep striving for excellence, and the world will be yours to conquer."
+  failSpeechText: "Even though you didn't achieve the desired outcome in this game
+    as a student, I want to applaud your dedication and effort. \nRemember that setbacks
+    are stepping stones to success, and with perseverance, you'll overcome any obstacles
+    that come your way. \nKeep your head up and continue to strive for greatness."
 --- !u!114 &1381867731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8715,6 +8747,22 @@ MonoBehaviour:
   dayText: {fileID: 0}
   congrats: {fileID: 0}
   speechText: {fileID: 0}
+  instructionText: "Use: Arrows To Move \n Space To Jump \n E To Enter"
+  mapText: "Map:\n\n Home ---- Library ---- Faculty"
+  whatToDoText: 'Tip:
+
+    Balance Your Academic & Social Score
+
+    Learn & Socialize
+    In The Faculty & Library'
+  successSpeechText: "Your determination and hard work as a student in this game
+    have paid off. \nYou've shown incredible skill, resilience, and a thirst for
+    knowledge. \nThis achievement is just the beginning of your journey to even greater
+    heights. \nKeep striving for excellence, and the world will be yours to conquer."
+  failSpeechText: "Even though you didn't achieve the desired outcome in this game
+    as a student, I want to applaud your dedication and effort. \nRemember that setbacks
+    are stepping stones to success, and with perseverance, you'll overcome any obstacles
+    that come your way. \nKeep your head up and continue to strive for greatness."
 --- !u!114 &1445663426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9943,6 +9991,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1756573935 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5684641240605624670, guid: 840557ada2a4b784a8f6666f1e22c0a3, type: 3}
+  m_PrefabInstance: {fileID: 4124121660692839289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1756573939 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 6461572263350955489, guid: 840557ada2a4b784a8f6666f1e22c0a3, type: 3}
+  m_PrefabInstance: {fileID: 4124121660692839289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1756573940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756573935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47249c947a6c9cef3be7a7e53fdc8d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Home: {fileID: 1596930174}
+  Library: {fileID: 815231449}
+  Faculty: {fileID: 637934189}
+  rb: {fileID: 1756573939}
 --- !u!1 &1761667822
 GameObject:
   m_ObjectHideFlags: 0

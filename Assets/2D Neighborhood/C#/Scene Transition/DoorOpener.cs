@@ -29,6 +29,8 @@ public class DoorOpener : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
+                Scene scene = SceneManager.GetActiveScene();
+                StaticVariables.lastScene = scene.name;
                 SceneManager.LoadScene(sceneName);
             }
         }
