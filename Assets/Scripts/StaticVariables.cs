@@ -26,7 +26,7 @@ public class StaticVariables : MonoBehaviour
     public static void AddDay()
     {
         AddDayWithoutLoading();
-        if (day == Week.Saturday)
+        if (wonTheGame())
         {
             LoadSceneByName("AcademyDone");
         }
