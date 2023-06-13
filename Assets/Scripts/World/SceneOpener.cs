@@ -16,7 +16,7 @@ public class SceneOpener : MonoBehaviour
     public float ObjectHeight;
     public float waitForSeconds = 7.0f;
     public int activity = 0;
-    public string learningWithFriendsMessage = "Great you learned with your friends, which means that your academic and social score gets increased by 10 each.";
+    public string learningWithFriendsMessage = "Great you learned with your friends, which means that your academic and social score gets increased by 5 each.";
     public LayerMask whatIsPlayer;
 
     private void Update()
