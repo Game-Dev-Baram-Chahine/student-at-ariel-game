@@ -17,6 +17,7 @@ public class StaticVariables : MonoBehaviour
     public static float passAcademic = 80;
     public static float passSocial = 30;
     public static float maxScore = 100;
+    public static int tutorialIndex = 0;
     public static string lastScene = "Main Scene";
     public enum Week { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday };
     public static Week day = Week.Sunday;
