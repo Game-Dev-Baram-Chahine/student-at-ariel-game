@@ -24,11 +24,11 @@ public class TextDisplay : MonoBehaviour
         }
         if (playerSocialScore != null)
         {
-            playerSocialScore.text = playerSocialScore.text + StaticVariables.socialScore;
+            playerSocialScore.text = playerSocialScore.text + StaticVariables.socialScore + "/" + StaticVariables.passSocial;
         }
         if (playerAcadimicScore != null)
         {
-            playerAcadimicScore.text = playerAcadimicScore.text + StaticVariables.acadimicScore;
+            playerAcadimicScore.text = playerAcadimicScore.text + StaticVariables.acadimicScore + "/" + StaticVariables.passAcademic;
         }
         if (dayText != null)
         {
