@@ -17,7 +17,7 @@ public class TextDisplay : MonoBehaviour
     public string instructionText = "Use: Arrows To Move \n Space To Jump \n E To Enter";
     public string mapText = "Map:\n\n Home ---- Library ---- Faculty";
 
-    public string whatToDoText = "Tip:\nLevel Up Your Academic & Social Score\nLearn & Socialize In The Faculty & Library";
+    public string whatToDoText = "Tip:\n Level Up Your Academic & Social Score \n Learn & Socialize In The Faculty & Library";
 
     public string successSpeechText = "Your determination and hard work as a student in this game have paid off. \nYou've shown incredible skill, resilience, and a thirst for knowledge. \nThis achievement is just the beginning of your journey to even greater heights. \nKeep striving for excellence, and the world will be yours to conquer.";
     public string failSpeechText = "Even though you didn't achieve the desired outcome in this game as a student, I want to applaud your dedication and effort. \nRemember that setbacks are stepping stones to success, and with perseverance, you'll overcome any obstacles that come your way. \nKeep your head up and continue to strive for greatness.";

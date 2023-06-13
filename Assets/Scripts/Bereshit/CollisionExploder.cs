@@ -36,9 +36,33 @@ public class CollisionExploder : MonoBehaviour
 
     private Rigidbody2D rb;
 
+    public GameObject rightBorder;
+    public GameObject leftBorder;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+    }
+
+    private void Update()
+    {
+        if (checkBorder())
+        {
+            StartCoroutine(Explosion());
+        }
+    }
+    /// <summary>
+    /// Check if the spaceship is out of bounds
+    /// </summary>
+    /// <returns>true if the ship is out of bounds</returns>
+    private bool checkBorder()
+    {
+        if (rightBorder.transform.position.x <= rb.transform.position.x ||
+            leftBorder.transform.position.x >= rb.transform.position.x ||
+            rightBorder.transform.position.y <= rb.transform.position.y)
+        {
+            return true;
+        }
+        return false;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
