@@ -183,10 +183,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 22
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 10
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -346,7 +346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -439,6 +439,22 @@ MonoBehaviour:
   dayText: {fileID: 0}
   congrats: {fileID: 967022612}
   speechText: {fileID: 178001165}
+  instructionText: "Use: Arrows To Move \n Space To Jump \n E To Enter"
+  mapText: "Map:\n\n Home ---- Library ---- Faculty"
+  whatToDoText: 'Tip:
+
+    Balance Your Academic & Social Score
+
+    Learn & Socialize
+    In The Faculty & Library'
+  successSpeechText: "Your determination and hard work as a student in this game
+    have paid off. \nYou've shown incredible skill, resilience, and a thirst for
+    knowledge. \nThis achievement is just the beginning of your journey to even greater
+    heights. \nKeep striving for excellence, and the world will be yours to conquer."
+  failSpeechText: "Even though you didn't achieve the desired outcome in this game
+    as a student, I want to applaud your dedication and effort. \nRemember that setbacks
+    are stepping stones to success, and with perseverance, you'll overcome any obstacles
+    that come your way. \nKeep your head up and continue to strive for greatness."
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -574,7 +590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -709,8 +725,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -247}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -8, y: -226}
+  m_SizeDelta: {x: 250, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1449138324
 MonoBehaviour:
@@ -877,7 +893,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 35313af049b4a2f42a0325330c51d74a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cfa9290743468de4292be47f85b5e547, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
