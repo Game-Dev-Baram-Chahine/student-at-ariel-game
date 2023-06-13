@@ -57,6 +57,7 @@ public class TextDisplay : MonoBehaviour
             if (StaticVariables.wonTheGame())
             {
                 congrats.text = "Congratulations";
+                StaticVariables.initializeScoreboard();
             }
             else
             {

@@ -32,12 +32,15 @@ public class StaticVariables : MonoBehaviour
         AddDayWithoutLoading();
         if (wonTheGame())
         {
-            acadimicScore = 0;
-            socialScore = 0;
             LoadSceneByName("AcademyDone");
         }
         else
             LoadSceneByName(mainScene);
+    }
+    public static void initializeScoreboard()
+    {
+        acadimicScore = 0;
+        socialScore = 0;
     }
     /// <summary>
     /// Adds a day to the enum value.
