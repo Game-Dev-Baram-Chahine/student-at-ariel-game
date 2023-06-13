@@ -29,6 +29,8 @@ public class StaticVariables : MonoBehaviour
         AddDayWithoutLoading();
         if (wonTheGame())
         {
+            acadimicScore = 0;
+            socialScore = 0;
             LoadSceneByName("AcademyDone");
         }
         else
