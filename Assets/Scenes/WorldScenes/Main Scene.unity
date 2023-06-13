@@ -8919,7 +8919,7 @@ MonoBehaviour:
   speechText: {fileID: 0}
   instructionText: "Use: Arrows To Move \n Space To Jump \n E To Enter"
   mapText: "Map:\n\n Home ---- Library ---- Faculty"
-  whatToDoText: Tip:\n Level Up Your Academic & Social Score\nLearn & Socialize In
+  whatToDoText: Tip:\nLevel Up Your Academic & Social Score Learn & Socialize In
     The Faculty & Library
   successSpeechText: "Your determination and hard work as a student in this game
     have paid off. \nYou've shown incredible skill, resilience, and a thirst for
