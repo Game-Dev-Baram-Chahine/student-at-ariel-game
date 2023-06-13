@@ -8,11 +8,14 @@ TagManager:
   - Dust
   - AirPlane
   - Enemy
+  - Jupiter
+  - Rock
+  - Astroid
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Text
   - Water
   - UI
   - 
