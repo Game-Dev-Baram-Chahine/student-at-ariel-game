@@ -441,20 +441,10 @@ MonoBehaviour:
   speechText: {fileID: 178001165}
   instructionText: "Use: Arrows To Move \n Space To Jump \n E To Enter"
   mapText: "Map:\n\n Home ---- Library ---- Faculty"
-  whatToDoText: 'Tip:
-
-    Balance Your Academic & Social Score
-
-    Learn & Socialize
-    In The Faculty & Library'
   successSpeechText: "Your determination and hard work as a student in this game
     have paid off. \nYou've shown incredible skill, resilience, and a thirst for
     knowledge. \nThis achievement is just the beginning of your journey to even greater
     heights. \nKeep striving for excellence, and the world will be yours to conquer."
-  failSpeechText: "Even though you didn't achieve the desired outcome in this game
-    as a student, I want to applaud your dedication and effort. \nRemember that setbacks
-    are stepping stones to success, and with perseverance, you'll overcome any obstacles
-    that come your way. \nKeep your head up and continue to strive for greatness."
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

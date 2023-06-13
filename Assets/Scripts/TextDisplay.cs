@@ -61,6 +61,5 @@ public class TextDisplay : MonoBehaviour
         {
             speechText.text = successSpeechText;
         }
-
     }
 }
