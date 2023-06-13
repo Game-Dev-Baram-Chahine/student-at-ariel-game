@@ -191,8 +191,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -322, y: -31}
-  m_SizeDelta: {x: 316.6128, y: 47.942}
+  m_AnchoredPosition: {x: -267.33582, y: -31}
+  m_SizeDelta: {x: 425.9413, y: 47.942}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &77454118
 CanvasRenderer:
@@ -1616,8 +1616,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 651, y: -32}
-  m_SizeDelta: {x: 316.6128, y: 47.942}
+  m_AnchoredPosition: {x: 604.1943, y: -23.971}
+  m_SizeDelta: {x: 397.0013, y: 47.942}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &804444946
 MonoBehaviour:
@@ -1729,8 +1729,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 0}
-  m_SizeDelta: {x: 316.6128, y: 47.942}
+  m_AnchoredPosition: {x: 0.59565, y: -0.0000076294}
+  m_SizeDelta: {x: 395.81, y: 47.942}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &819837744
 MonoBehaviour:
@@ -1765,7 +1765,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Learn With Friends
+  m_Text: Learn With Friends - Press E
 --- !u!222 &819837745
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2398,8 +2398,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030517578, y: 0}
-  m_SizeDelta: {x: 316.6128, y: 47.942}
+  m_AnchoredPosition: {x: -0.000015259, y: -0.000015259}
+  m_SizeDelta: {x: 445.2346, y: 47.942}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1280367815
 MonoBehaviour:
@@ -2434,7 +2434,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Game With Friends
+  m_Text: Game With Friends - Press E
 --- !u!222 &1280367816
 CanvasRenderer:
   m_ObjectHideFlags: 0
