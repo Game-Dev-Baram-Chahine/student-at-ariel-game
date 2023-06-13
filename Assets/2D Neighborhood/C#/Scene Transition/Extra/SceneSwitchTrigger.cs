@@ -14,11 +14,11 @@ public class SceneSwitchTrigger : MonoBehaviour
         sceneSwitch = FindObjectOfType<SceneSwitcher>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collsion) 
+    private void OnTriggerEnter2D(Collider2D collsion)
     {
-        if(collsion.tag == "Player")
+        if (collsion.tag == "Player")
         {
             sceneSwitch.SwitchScene(sceneName);
-        }   
+        }
     }
 }

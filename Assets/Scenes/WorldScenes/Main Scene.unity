@@ -10161,6 +10161,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1756573935 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5684641240605624670, guid: 840557ada2a4b784a8f6666f1e22c0a3, type: 3}
+  m_PrefabInstance: {fileID: 4124121660692839289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!50 &1756573939 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 6461572263350955489, guid: 840557ada2a4b784a8f6666f1e22c0a3, type: 3}
+  m_PrefabInstance: {fileID: 4124121660692839289}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1756573940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756573935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47249c947a6c9cef3be7a7e53fdc8d21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Home: {fileID: 1596930174}
+  Library: {fileID: 815231449}
+  Faculty: {fileID: 637934189}
+  rb: {fileID: 1756573939}
 --- !u!1 &1761667822
 GameObject:
   m_ObjectHideFlags: 0

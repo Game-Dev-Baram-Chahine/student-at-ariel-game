@@ -16,6 +16,8 @@ public class SceneSwitcher : MonoBehaviour
     public void SwitchScene(string sceneName)
     {
         prevScene = currentScene;
+        // Scene scene = SceneManager.GetActiveScene();
+        StaticVariables.lastScene = prevScene;
         SceneManager.LoadScene(sceneName);
     }
 

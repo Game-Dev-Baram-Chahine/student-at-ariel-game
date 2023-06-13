@@ -569,63 +569,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1001 &631599065
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 147881770126551284, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 147881770126551284, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 538.37335
-      objectReference: {fileID: 0}
-    - target: {fileID: 147881770126551284, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 324.66855
-      objectReference: {fileID: 0}
-    - target: {fileID: 147881770126551284, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 2.7779748
-      objectReference: {fileID: 0}
-    - target: {fileID: 147881770126551284, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 147881770126551284, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 147881770126551284, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 147881770126551284, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 147881770126551284, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 147881770126551284, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 147881770126551284, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 147881770126551287, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
-      propertyPath: m_Name
-      value: Esc
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5d811408dc285711ba033e2464b4ead2, type: 3}
 --- !u!1 &746255788
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,3 +2303,48 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052395237}
   m_CullTransparentMesh: 0
+--- !u!114 &147881769646114604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147881769646114606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d37f6b546d2562a5a1295c850157844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Faculty
+--- !u!4 &147881769646114605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 147881769646114606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 538.37335, y: 324.66855, z: 2.7779748}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &147881769646114606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 147881769646114605}
+  - component: {fileID: 147881769646114604}
+  m_Layer: 0
+  m_Name: Esc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
